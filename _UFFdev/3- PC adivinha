@@ -1,0 +1,14 @@
+from random import randint
+print("jogo do adivinha pro pc")
+b=0
+while b!=5:
+    a = randint(1,10)
+    b = int(a)
+    print(b)
+    if b==5:
+        print("boa")
+    else:
+        if b>5:
+            print("muito alto")
+        else:
+            print("muito baixo")

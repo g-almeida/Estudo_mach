@@ -1,0 +1,13 @@
+#Um	círculo	de	raio	2	é	colocando	dentro	de	um	retângulo	de	lados	5	e	7.
+#Faça	um	programa	que	informe	o	tamanho	da	área	do	retângulo	que	não
+#está	sendo	ocupada	pelo	círculo.
+
+print ("area do retangulo")
+Ar = 5*7
+print (Ar)
+print ("area do circulo")
+Ao = 3.14*2*2
+print (Ao)
+print ("area retangulo - circulo")
+A = Ar - Ao
+print (A)

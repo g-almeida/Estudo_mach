@@ -29,3 +29,23 @@ else:
     print("The unit price after applying discount rules is: ", p)
 total = p*qtd
 print(total)
+
+def pricing(nome, p, qtd):
+        
+    print(nome, "; price =", p, "; quantity =", qtd)
+
+    if qtd <= 10:
+        print("the price stays the same, no discount. Price = ", p)
+    else:
+        if qtd >= 11 and qtd <= 20:
+            p = p*0.9
+            #print("o preço do produto com desconto é", p)
+        elif qtd >= 21 and qtd <= 50:
+            p = p*0.80
+            #print("o preço do produto com desconto é", p)
+        else:
+            p = p*0.75
+            #print("o preço do produto com desconto é", p)
+        print("The unit price after applying discount rules is: ", p)
+    total = p*qtd
+    return total

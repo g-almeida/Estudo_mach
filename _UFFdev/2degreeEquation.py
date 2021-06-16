@@ -23,4 +23,14 @@ else:
     print("x2=" , x2)
 
 
-
+def equation(a, b, c):
+    d = (b*b) - (4*a*c)
+    print("Delta =" , d)
+    if d<0:
+        print("irrational roots")
+    else:
+        x1 = ( -b + (d ** (1/2)) ) / (2*a)
+        print("x1=" , x1)
+        x2 = ( -b - (d ** (1/2)) ) / (2*a)
+        print("x2=" , x2)
+    return x1, x2        

@@ -5,7 +5,7 @@ contacts = {'gab':'9999-0000', 'sop':'3333-3333', 'gust':'4242-2422'}
 
 But here I'm showing that you can create an empty one and then assign keys/values to them.
 """
-
+ahmedsFunction()
 # So here we're creating an empty dictionary 
 contacts = {}
 
